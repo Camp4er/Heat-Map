@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heat Map</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Heat Map</h1>
+    <div id="description">Heatmap Description</div>
+<svg id="heatmap">
+  <!-- Your heatmap content (rect elements) will go here -->
+</svg>
+<div id="legend">Legend</div>
+<div id="x-axis">X-Axis</div>
+<div id="y-axis">Y-Axis</div>
+  <div class="chart-container">
+  </div>
+
+  <div id="tooltip" class="tooltip" style="opacity: 0;"></div>
+
+  <script src="https://unpkg.com/d3@5/dist/d3.min.js" crossorigin></script> 
+    <script src="https://unpkg.com/d3-textwrap@2/build/d3-textwrap.min.js" crossorigin></script>
+    <script src="script.js"></script>
+</html>
